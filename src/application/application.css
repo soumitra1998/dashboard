@@ -1,0 +1,46 @@
+.application{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:15px;
+    padding:0px;
+    text-align: center;
+   
+    
+}
+.application-name{
+   
+    color:green;
+}
+.application-name-text{
+    color:green;
+    font-size: 30px;
+    font-weight: bold;
+}
+.application-services-reload{
+  text-align: right;
+  
+  margin-right: 50px;
+  padding: 5px;
+  
+
+}
+.application-services-reload>button{
+    transform: scaleY(2.8);
+    transform: scaleX(2);
+    
+    background-color: green;
+}
+.application-services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+.application-services-component{
+    margin:10px;
+    margin-left:20px;
+    padding: 10px;
+}

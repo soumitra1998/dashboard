@@ -1,0 +1,108 @@
+
+.loaded-box{
+    display: block;
+    margin: 15px;
+    border:3px solid #4dc0ef;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.loaded-box-left{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: #4dc0ef;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left;
+    text-align: center;   
+}
+.loaded-box-left-icon{
+    position: relative;
+    top:35px;
+    left:-5px;
+    color: white;
+    transform: scale(3);
+}
+
+.loaded-box-status{
+    padding: 5px 10px;
+    margin-left: 100px;
+}
+.loaded-box-status-application{
+    color:black;
+    font-size: 20px;
+    font-weight:bolder;
+    padding: 5px;
+    margin: 5px;
+}
+.loaded-box-status-service-status{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.loaded-box-status-timestamp{
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+/*unloaded box*/
+
+.unloaded-box{
+    display: block;
+    margin: 15px;
+    border:3px solid #ff9800;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+}
+.unloaded-box-left{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: #ff9800;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left;
+    text-align: center;   
+}
+.unloaded-box-left-icon{
+    position: relative;
+    top:35px;
+    left:-5px;
+    color: white;
+    transform: scale(3);
+}
+
+.unloaded-box-status{
+    padding: 5px 10px;
+    margin-left: 100px;
+}
+.unloaded-box-status-application{
+    color:black;
+    font-size: 20px;
+    font-weight:bolder;
+    padding: 5px;
+    margin: 5px;
+}
+.unloaded-box-status-service-status{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.unloaded-box-status-timestamp{
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    
+}

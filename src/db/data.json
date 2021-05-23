@@ -1,0 +1,24 @@
+[
+    {
+        "applicationName":"application1",
+        
+        "totalServices":8,
+        "activeServices":8,
+        "timeStamp":"new Date().toString()",
+        "isLoaded":true
+    },
+    {
+        "applicationName":"application2",
+        "totalServices":8,
+        "activeServices":6,
+        "timeStamp":"new Date().toString()",
+        "isLoaded":true
+    },
+    {
+        "applicationName":"application3",
+        "totalServices":8,
+        "activeServices":8,
+        "timeStamp":"new Date().toString()",
+        "isLoaded":true
+    }
+]

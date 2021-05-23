@@ -1,0 +1,24 @@
+.dashboard{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin:15px;
+}
+.dashboard_text{
+ 
+   text-align: center;
+}
+.dashboard-board{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+}
+.dashboard-board-link{
+   
+   text-decoration: none;
+   margin: 15px;
+   margin-left: -15px;
+
+}

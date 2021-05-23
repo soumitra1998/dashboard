@@ -1,0 +1,96 @@
+.service-success{
+    display: block;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 40px;
+    
+}
+
+
+.service-success-box{
+    display: block;
+    margin: 15px;
+    border:3px solid #4dc0ef;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+  
+}
+.service-sucess-box-status{
+    margin:5px;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+.service-sucess-box-status-name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.service-sucess-box-status-lastloadtime{
+    font-size: 15px;
+    text-align: start;
+
+}
+.service-success-box-status-nextloadtime{
+    font-size: 15px;
+}
+
+.service-reload-button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/*failed service*/
+
+.service-fail{
+    display: block;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 40px;
+    
+}
+
+
+.service-fail-box{
+    display: block;
+    margin: 15px;
+    border:3px solid #ff9800;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+  
+}
+.service-fail-box-status{
+    margin:5px;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+.service-fail-box-status-name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.service-fail-box-status-lastloadtime{
+    font-size: 15px;
+    text-align: start;
+
+}
+.service-success-box-status-nextloadtime{
+    font-size: 15px;
+}
+
+.service-reload-button{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
